@@ -1,0 +1,10 @@
+.Lside{
+    background-color: green;
+}
+.Rside{
+    background-color: red;
+}
+table{
+    width: 100%;
+    height: 500px;
+}
