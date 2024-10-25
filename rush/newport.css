@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;
+    font-family: "Oxanium", serif;
+}
+body{
+    background-color: rgb(250,137,215);
+}
+.navigationbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.container-navigationbar{
+    width: 100%;
+    height: 100px;
+    background-color: #161616;
+}
+.menubar{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.item-navabar a{
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 20px;
+}
+.container-logo{
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+}
+.logo{
+    height: 70px;
+    object-fit: cover;
+}
+.item-navabar button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #5c5c5c;
+}
+.item-navabar button:hover{
+    transition: 0.2s ease-in;
+    box-shadow: 0 0 20px 0 #5c5c5c;
+}
+.profile{
+    background-color: rgb(102,204,255);
+    display: flex;
+    align-items: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 100px;
+}
+.portnew{
+    background-color: rgb(250,137,215);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.picnew{
+    width: 50%;
+    img{
+        width: 500px;
+        height: 600px;
+    }
+}
+.intro{
+    width: 30%;
+    height: 400px;
+    background-color:   rgb(102,204,255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tion{
+    font-size: 30px;
+}
+.pro{
+    display: flex;
+}
+.med{
+    display: flex;
+}
+.textact{
+    background-color: rgb(102,204,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+}
+.activity{
+    display: flex;
+    text-align: center;
+    background-color: rgb(250,137,215);
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.leftna{
+    width: 50%;
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
+.activity2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.leftna1{
+    width: 50%;
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
+.certmain{
+    background-color: rgb(102,204,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+}
+.certificates{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    
+}
+.leftna3{
+    width: 50%;
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
+.certificates2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+      
+}
+.leftna4{
+    width: 50%;
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
+.contactme{
+    background-color: rgb(102,204,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+}
+.cosmic{
+    display: flex;
+    align-items: center;
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    p{
+        padding-left: 10px;
+    }
+}

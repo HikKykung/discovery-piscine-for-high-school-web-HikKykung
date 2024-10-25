@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;
+    font-family: "Oxanium", serif;
+}
+body{
+    background-color: rgb(250,137,215);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center center;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(bg-glassesman.png);
+}
+.navigationbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.container-navigationbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0,0.8);
+}
+.menubar{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.item-navabar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.container-logo{
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+}
+.logo{
+    height: 70px;
+    object-fit: cover;
+}
+.item-navabar button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #5c5c5c;
+}
+.item-navabar button:hover{
+    transition: 0.2s ease-in;
+    box-shadow: 0 0 20px 0 #5c5c5c;
+}
+.topic{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://www.sksp.ac.th/_files_school/11100230/data/11100230_0_20200403-192035.jpg); */
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.headbox{
+    margin: 20px;
+    width: 75%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.textmain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 4ex;
+}
+.a{
+    color: rgb(250,137,215);
+}
+.b{
+    color:rgb(250,137,215);
+}
+.c{
+    color: rgb(250,137,215);
+}
+.d{
+    color: rgb(250,137,215);
+}
+.set-flexs {
+    display: flex;
+
+}
+
+
+.para {
+    margin-bottom: 10px;;
+}
+a {
+   text-decoration: none; 
+}
+.portfolio-button {
+    padding: 2px;
+    width: 160px;
+    margin-right: 40px;
+    background-color: rgb(102,204,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+}
+
+.portfolio-button a {
+    color: whitesmoke;
+}
+
+.portfolio-button:hover {
+
+    background-color: rgb(250,137,215);
+    font-size: 20px;
+    width: 180px;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.newpic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portnew{
+    width: 100%;
+    height: 3000px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.headnew{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 50%;
+}
+.intro{
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;  
+}
+.activity{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picnew{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
