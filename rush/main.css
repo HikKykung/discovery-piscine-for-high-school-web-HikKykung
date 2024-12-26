@@ -80,13 +80,13 @@ background-position: center center;
 }
 .headbox.hidden{
     filter: blur(10px);
-    tranforms: transalateY(-100%);
+    tranforms: transalatX(-50%);
     opacity: 0;
     transition: all 1s ease;
 }
 .headbox.show{
     filter: blur(0px);
-    tranforms: transalateY(0);
+    tranforms: transalateX(0);
     opacity: 1;
 }
 .textmain{

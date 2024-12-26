@@ -28,7 +28,7 @@
     </nav>
     <h1 class="profile">Profile</h1>
     <div class="portnew">
-        <div class="picnew">
+        <div class="picnew hidden">
             <img src="81BB938E-9897-4D4D-A91C-68FCF7F1E93D.jpg">
         </div>
         <div class="intro">
@@ -114,5 +114,19 @@
             <p>Yossakorn Praharnphap</p>
         </div>
     </div>
+<script>
+    {/* scripts Animation */}
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  })
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el) => observer.observe(el));
+</script>
 </body>
 </html>
