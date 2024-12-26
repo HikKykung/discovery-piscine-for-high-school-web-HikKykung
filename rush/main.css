@@ -78,6 +78,17 @@ background-position: center center;
     text-align: center;
    
 }
+.headbox.hidden{
+    filter: blur(10px);
+    tranforms: transalateY(-100%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.headbox.show{
+    filter: blur(0px);
+    tranforms: transalateY(0);
+    opacity: 1;
+}
 .textmain{
     display: flex;
     justify-content: center;
