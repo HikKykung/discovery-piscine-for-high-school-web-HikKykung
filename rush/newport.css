@@ -88,6 +88,7 @@ body{
         height: 600px;
         object-fit: cover;
     }
+    padding: 0 180px 0 50px;
 }
 .picnew.hidden{
     opacity: 0;
@@ -98,7 +99,7 @@ body{
 .picnew.show{
     opacity: 1;
     transition: all 1s ease;
-    transform: translateX(0) rotate(-5deg);
+    transform: translateX(0);
     filter: blur(0);
 }
 .intro{
@@ -109,6 +110,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0 0 0;
 }
 .tion{
     font-size: 30px;
@@ -214,4 +216,14 @@ body{
     p{
         padding-left: 10px;
     }
+}
+
+.sub-container-box{
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: rgb(25, 25, 25,0.5);
 }
